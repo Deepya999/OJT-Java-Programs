@@ -1,0 +1,35 @@
+class CubeRoot{
+int n;
+CubeRoot(){
+n=123;
+int cr()=n*n*n;
+return cr;}}
+
+//with parameters
+class Student{
+int id;
+String name;
+String branch;
+public static void main(String[]args){
+
+Student(int i,String s, String b){
+id=i;
+name=s;
+branch=b;
+System.out.println(name+"----->"+id+"------>"+branch+"------>");
+}}
+Student(int i,String s){
+id=i;
+name=s;
+
+System.out.println(name+"----->"+id+"------>");
+
+}
+}
+Student(String b){
+branch=b;
+
+System.out.println(branch);
+
+}
+}
