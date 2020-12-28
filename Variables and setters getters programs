@@ -1,0 +1,58 @@
+//LOCAL VARIABLE
+class Eg{
+public Static void main(String args[]){
+int a=10;//local
+System.out.println(a);
+}
+}
+
+//INSTANCE VARIABLE
+class Eg{
+int a=12;
+public Static void main(String[] args){
+System.out.println(a);
+}}
+
+//WITHOUT ERROR
+class Eg{
+int a=12;
+public Static void main(String[] args){
+Eg de=new Eg();
+System.out.println(de.a);
+}}
+
+STATIC VARIABLE
+class Eg{
+static  a=20;
+public ststic coid main(String[]args){
+System.out.println(a);
+}}
+
+//Getters and setters
+1.
+class Sg
+{
+public int id;
+public String name;
+public int getId();
+{
+return id;
+}
+public void setId(int id){
+this.id=i;
+}
+public String getName(){
+return name;
+}
+public void setName(String name){
+this.name=n;
+}}
+
+public class Details{
+public static void main(String[]args){
+Sg.deepya=new sg();
+deepya.setId("100");
+System.out.println(deepya.getId());
+deepya.setName("james");
+System.out.println(deepya.getName());
+}
