@@ -1,0 +1,43 @@
+public class 2DArray {
+   public static void main(String[] args) {
+      final int[][] matrix = {
+         { 1, 2, 3 },
+         { 4, 5, 6 },
+         { 7, 8, 9 }
+      };
+      for (int i = 0; i < matrix.length; i++) { 
+         for (int j = 0; j < matrix[i].length; j++) { 
+            System.out.print(matrix[i][j] + " ");
+         }
+         System.out.println(); 
+      }
+   }
+}
+
+delete a specific element in array
+import java.util.Scanner;
+
+public class RemoveArrayElement {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int[] num = {6, 8, 10, 34, 12, 2};
+
+    System.out.print("Enter Element to be deleted: ");
+    int element = sc.nextInt();
+    
+    for(int i = 0; i < num.length; i++){
+      if(numArray[i] == element){
+        // shift elements to the left
+        for(int j = i; j < numArray.length - 1; j++){
+          numArray[j] = numArray[j+1];
+        }
+        break;
+      }
+    }
+    
+    System.out.println("Array elements after deletion-- " );
+    for(int i = 0; i < numArray.length; i++){
+      System.out.print(" " + numArray[i]);
+    }  
+  }
+}
