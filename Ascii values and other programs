@@ -1,0 +1,39 @@
+ class Ascii { 
+  
+    
+    public static void main(String[] args) 
+    { 
+        // Character whose ASCII is to be computed 
+        char ch = 'a'; 
+       char ch1='b';
+       char ch2='c';
+        
+        int ascii = ch; 
+  
+        /* Java stores the ascii value there itself*/
+  
+        // Printing the ASCII value of above character 
+        System.out.println("The ASCII value of " + ch 
+                           + " is: " + ascii); 
+                           
+       System.out.println("The ASCII value of " + ch1
+                           + " is: " + ascii); 
+     System.out.println("The ASCII value of " + ch2 
+                           + " is: " + ascii); 
+    } }
+    
+    factorial program using recursion:
+    class A;
+    static int factorial(int n){
+    if(n==0)
+    return 1;
+    else
+    return(n*factorial(n-1));
+    }
+    public static void main(String[]args){
+    int i,fact=1;
+    int number=10;
+    fact=factorial(number);
+    System.out.println("factorial is"+fact);
+    }}
+    
